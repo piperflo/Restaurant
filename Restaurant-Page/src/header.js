@@ -14,19 +14,14 @@ function createHeader(){
     menu.setAttribute('class', 'menu');
     menu.textContent = "Menu";
 
-    const contact = document.createElement('div');
-    contact.setAttribute('class', 'contact');
-    contact.textContent = "Contact";
+    const about = document.createElement('div');
+    about.setAttribute('class', 'about');
+    about.textContent = "About";
 
     main.appendChild(home);
     main.appendChild(menu);
-    main.appendChild(contact);
+    main.appendChild(about);
 
-    //const sideBar = document.createElement('div');
-    //sideBar.setAttribute('class', 'side-bar');
-    //Name of restaurant div
-     //Location
-     //Dates and Hours
     const body = document.createElement('div');
     body.setAttribute('class', 'body');
 
